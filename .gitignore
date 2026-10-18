@@ -1,0 +1,9 @@
+.godot/
+dist/
+site/
+node_modules/
+.manus-logs/
+.manus-artifacts.json
+.env
+.env.*
+!.env.example

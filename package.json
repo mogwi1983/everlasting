@@ -1,0 +1,9 @@
+{
+  "name": "the-everlasting-delve",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && godot --headless --path . --export-release Web dist/index.html",
+    "stage-pages": "npm run build && python3 tools/stage_pages.py"
+  }
+}
